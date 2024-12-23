@@ -1,0 +1,30 @@
+/* Write your code here. */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.navbar-container {
+  background-color: #9796f0;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+}
+
+.score-container p {
+  margin-left: 20px;
+}
